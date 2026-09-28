@@ -2,7 +2,7 @@
 
 Status: specification only. No fixture files exist yet — they are created in Phase 6 (`IMPLEMENTATION_PLAN.md`), once the document, tender, and qualification models this spec depends on are implemented (Phases 3–5). This document is what those fixtures must satisfy, and doubles as the acceptance test for the qualification engine: if the engine produces every outcome below from this data, the primary success criterion (`PROJECT_SPEC.md` §28 of the source brief) is met.
 
-All data described here is **entirely fictional**, created for testing. No real company or tender information is used. Every fixture file, once created, must be clearly marked as demo data (e.g. a `DEMO DATA — FICTIONAL` header/watermark where the format allows it, and placement under `demo-data/` only).
+All data described here is **entirely fictional**, created for testing. No real company or tender information is used. Every fixture file, once created, must be clearly marked as demo data (e.g. a `DEMO DATA — FICTIONAL` header/watermark where the format allows it, and placement under `backend/demo-data/` only).
 
 ## 1. Demo Company — Atlas Energy Services Ltd
 

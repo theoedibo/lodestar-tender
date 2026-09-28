@@ -1,6 +1,6 @@
 # Lodestar Tender — Database Design
 
-The schema lives at `prisma/schema.prisma` and is the source of truth; this document explains the design decisions behind it. All tables use `gen_random_uuid()` UUID primary keys and snake_case column/table names in Postgres (Prisma models use camelCase and `@@map`/`@map`).
+The schema lives at `backend/prisma/schema.prisma` and is the source of truth; this document explains the design decisions behind it. All tables use `gen_random_uuid()` UUID primary keys and snake_case column/table names in Postgres (Prisma models use camelCase and `@@map`/`@map`).
 
 ## 1. Entity Groups
 
